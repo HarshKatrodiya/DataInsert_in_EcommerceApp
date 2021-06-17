@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Data Insert Product</string>
+
+    <string-array name="Category">
+        <item>Cake</item>
+        <item>Flower</item>
+        <item>Toy</item>
+    </string-array>
+</resources>

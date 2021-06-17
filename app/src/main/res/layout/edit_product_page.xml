@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/product_name1"
+        android:hint="Enter product Name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/Spineer1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/Category">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/product_price1"
+        android:hint="Enter product price"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/image_view1"
+            android:layout_width="400dp"
+            android:layout_margin="10dp"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/select_image_btn1"
+                android:layout_width="match_parent"
+                android:background="@color/Blue"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="80dp"
+                android:text="Select Image"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/product_real_price1"
+        android:hint="Enter product real price"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/product_discount1"
+        android:hint="Enter product Discount in %"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/product_description_all1"
+        android:hint="All description"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/specification_In_the_Packet_et1"
+        android:hint="specification In the Packet"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/specification_color_et1"
+        android:hint="specification color"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/specification_type_et1"
+        android:hint="specification type"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/specification_weight_et1"
+        android:hint="specification weight"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/specification_Ribbon_color_et1"
+        android:hint="specification Ribbon Color"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/specification_flower_qty_et1"
+        android:hint="specification flower qty"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/moreinfo_Generic_name_et1"
+        android:hint="Moreinfo Generic Name"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/submit_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/Blue"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:text="Update Now" />
+
+    </LinearLayout>
+</ScrollView>
